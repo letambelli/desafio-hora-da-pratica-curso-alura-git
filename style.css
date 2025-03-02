@@ -1,0 +1,70 @@
+body {
+    background-color: aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+
+}
+
+h1 {
+    font-weight: bold;
+}
+
+header {
+    background-color: red;
+    color: aliceblue;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 2.6%;
+}
+
+nav ul li a:hover {
+    color: white;
+    background-color: darkred;
+}
+
+
+.main {
+    margin-left: 2%;
+    margin-top: 3%;
+    text-align: left;
+    width: 80%;
+    flex: 1;
+}
+
+.text-container-main {
+    margin-bottom: 4%;
+ }
+
+ .text-container {
+    margin-bottom: 2%;
+}
+
+footer {
+    text-align: center;
+    background-color: grey;
+    color: whitesmoke;
+    padding: 0.2%;
+    margin-top: 2%;
+}
+
