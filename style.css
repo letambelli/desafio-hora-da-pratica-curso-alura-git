@@ -83,6 +83,23 @@
         margin-bottom: 5%;
     }
 
+    .contatos {
+        font-size: 120%;
+        text-align: left;
+        padding: 10%;
+        padding-left: 15%;
+        
+    }
+
+    .contatos ul {
+        display: flex;
+        flex-direction: column;
+        gap: 5%;
+        text-decoration: none;
+        list-style: none;
+        
+    }
+
     footer {
         text-align: center;
         background-color: grey;
